@@ -61,7 +61,7 @@ app.get('/admin/courses', (req, res) => {
         })
 });
 
-// User Routes
+
 app.post('/users/signup', (req, res) => {
     User.create({
         username: req.body.username,
